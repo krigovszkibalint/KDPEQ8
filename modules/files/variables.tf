@@ -7,9 +7,11 @@ variable "number_of_files" {
 variable "content" {
   description = "The content of the files"
   type        = string
+  default     = "test"
 }
 
 variable "name" {
   description = "The name of the files"
   type        = string
+  default     = "test"
 }
