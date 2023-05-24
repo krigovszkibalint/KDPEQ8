@@ -9,3 +9,7 @@ output "read_module_test" {
 output "test" {
   value = "read module output"
 }
+
+output "task2" {
+  value = "read-".local_file.file.count
+}
