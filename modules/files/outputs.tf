@@ -3,5 +3,5 @@ output "file_content_md5" {
 }
 
 output "test" {
-  value = "output test value"
+  value = "custom test output"
 }
