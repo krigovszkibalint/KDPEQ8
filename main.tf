@@ -6,8 +6,7 @@ module "files" {
 
 module "read" {
   source  = "./modules/read"
-  content = "read-test"
-  name    = "read"
+  read_input = module.files.file_content_md5
 }
 
 module "write" {
