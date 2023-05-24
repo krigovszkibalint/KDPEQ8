@@ -20,6 +20,4 @@ module "write" {
 
 module "data" {
   source  = "./modules/data"
-  content = "write-test"
-  name    = "write"
 }
