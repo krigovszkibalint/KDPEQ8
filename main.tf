@@ -1,11 +1,11 @@
 module "files" {
   source  = "./modules/files"
   content = "test"
-  name    = "name"
+  name    = "files"
 }
 
 module "read" {
   source  = "./modules/read"
   content = "read-test"
-  name    = "name"
+  name    = "read"
 }
