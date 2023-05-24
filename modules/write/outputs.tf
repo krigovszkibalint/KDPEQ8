@@ -3,21 +3,21 @@ output "file_content_md5" {
 }
 
 output "answer_1" {
-  value = "plan"
+  value = local_file.file.answer_1
 }
 
 output "answer_2" {
-  value = "int"
+  value = local_file.file.answer_2
 }
 
 output "answer_3" {
-  value = "while"
+  value = local_file.file.answer_3
 }
 
 output "answer_4" {
-  value = "using output values"
+  value = local_file.file.answer_4
 }
 
 output "answer_5" {
-  value = "using -var flag"
+  value = local_file.file.answer_5
 }
