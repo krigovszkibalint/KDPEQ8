@@ -1,4 +1,7 @@
-variable "answer_1" {}
+variable "answer_1" {
+  description = "Answer 1"
+  type        = string
+}
 
 variable "answer_2" {
   description = "Answer 2"
