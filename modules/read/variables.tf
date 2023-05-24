@@ -7,3 +7,8 @@ variable "test" {
   description = "custom test input from files"
   type        = string
 }
+
+variable "task2" {
+  description = "task2 variable"
+  type        = string
+}
